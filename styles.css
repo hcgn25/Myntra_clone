@@ -1,28 +1,85 @@
-#don{
+/* #don{
     display: flex;
-}
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+} */
 *{
     margin: 0px;
     padding: 0px;
     font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 #logo1{
-    width: 53px;
     height: 36px;
-    margin-left: 7.3775%;
 }
 
-#don{
-    height: 80px;
+#click {
+    display: flex;
+    /* justify-content: space-evenly; */
+    text-decoration: none;
+    /* padding: 0px 17px 28px; */
+    font-size: 14px;
+    letter-spacing: .3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* align-items: center; */
 }
+
+header nav a{
+    color: #282C3F;
+    /* align-items: center; */
+    text-align: center;
+    align-items: center;
+}
+
+#topo{
+    margin-left: 4%;
+}
+
+/* #don{
+    height: 80px;
+    display: flex;
+} */
 
 #ddd{
     height: 39.6px;
+    margin-right: 7.3775%;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    display: inline-block;
+    color: #696e79;
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+    flex-grow: 1;
 }
 
-.top{
-    padding: 0px 17px 28px;
+#sear{
+    display: flex;
+    margin-right: 7.3775%;
+    height: 40px;
+    min-width: 400px;
+}
+
+.material-symbols-outlined{
+    box-sizing: content-box;
+    display: inline-block;
+    height: 28px;
+    width: 40px;
+    text-align: center;
+    padding: 8px 0 2px;
+    background: #f5f5f6;
+    border: 1px solid #f5f5f6;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
 }
 
 #red{
@@ -32,4 +89,34 @@
     padding: 0px 0px 34px -15px;
     height: 13.6px;
     width: 20.16;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+#one{
+    width: 62.4px;
+}
+#two{
+    width: 83.84px;
+}
+#three{
+    width: 64.44px;
+}
+#four{
+    width: 131.16px;
+}
+#five{
+    width: 83.68px;
+}
+#six{
+    width: 82.78px;
+}
+
+header{
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    height: 80px;
+    justify-content: space-between;
 }
